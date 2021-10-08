@@ -1,0 +1,32 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Rey Ruiz
+ */
+@startuml
+class Input_ex41{
+    -String author
+    -String site
+    -char JS
+    -char CSS
+    +String getName()
+    +String getAuthor()
+    -char jsFile()
+    -char cssFile()
+}
+class Directory{
+    -String path
+    boolean createSite
+    +void setPath()
+    +void files()
+}
+class Website{
+    +directory()
+    +generator()
+}
+class Main{
+    +main()
+}
+Directory-->Website: Creates Files and folders
+Input_ex41-->Website: Takes user input
+Website-->Main: Generate website
+@enduml

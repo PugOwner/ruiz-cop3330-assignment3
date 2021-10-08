@@ -1,0 +1,11 @@
+@startuml
+class App
+{
+    +main()
+}
+class Tabulate
+{
+    nameAndSalary()
+}
+Tabulate-->App: Send text file in a tabulate\n format to be displayed to the user
+@enduml

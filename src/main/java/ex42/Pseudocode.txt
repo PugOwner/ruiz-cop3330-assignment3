@@ -1,0 +1,7 @@
+    Class Tabulate
+    - Reads file
+    - Splits and stores into arrays
+    - Prints file in tabulated form
+
+    Class App
+    - Calls Tabulate.namesAndSalary()
