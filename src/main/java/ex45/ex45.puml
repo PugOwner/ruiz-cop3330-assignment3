@@ -1,0 +1,20 @@
+@startuml
+class App
+{
+    +main()
+}
+class Input
+{
+    -String line;
+    -String originalWord
+    -String substitute
+    +getOriginalWord()
+    +getSubstitute()
+}
+class Output
+{
+    +file()
+}
+Output-->App: App calls Output
+Input-->App: App calls Input
+@enduml
