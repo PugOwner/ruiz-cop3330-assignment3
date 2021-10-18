@@ -20,6 +20,7 @@ public class App {
             i++;
         }
         Arrays.sort(names);
+        //this is a comment
 
         File output = new File("src/main/java/ex41/exercise41_output.txt");
         output.createNewFile();
