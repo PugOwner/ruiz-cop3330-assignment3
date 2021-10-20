@@ -1,0 +1,12 @@
+   Class Output
+    - Takes in two String values
+    - Used to create byte[]
+    - Writes into array
+
+   Class Input
+    - Reads file
+    - Returns file with substituted word
+
+   Class App
+    - Interacts with user to name the output file
+    - Outputs file with word substituted

@@ -1,0 +1,21 @@
+@startuml
+class Main
+{
+    main()
+}
+class Product
+{
+    -String name
+    -double price
+    -double quantity
+    +getName()
+    +Iterator()
+    +getPrinter()
+}
+class Search
+{
+    getProduct()
+}
+Product-->Search: Search if user input is in Product
+Search-->Main: Main calls Search to get the product
+@enduml

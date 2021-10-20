@@ -1,0 +1,16 @@
+@startuml
+class Main
+{
+    + main()
+}
+class OutputNames
+{
+    - outputNames()
+}
+class Names
+{
+    +class sortNames()
+}
+OutputNames-->Main: Sends Sorted array of names.
+Names-->OutputNames: Sends String array of names.
+@enduml

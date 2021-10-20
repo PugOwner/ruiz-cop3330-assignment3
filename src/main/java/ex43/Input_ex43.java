@@ -1,11 +1,11 @@
-package ex43;
 /*
  *  UCF COP3330 Fall 2021 Assignment 3 Solution
  *  Copyright 2021 Rey Ruiz
  */
+package ex43;
 import java.util.Scanner;
 
-public class Input {
+public class Input_ex43 {
     private String author;
     private String site;
     private char JS = 'N';

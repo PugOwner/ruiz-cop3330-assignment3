@@ -1,0 +1,11 @@
+   Class Names
+    - Reads file
+    - Stores it into array
+    - returns sorted array
+
+   Class OutputNames
+    - Creates a files
+    - Stores sorted array in file in table form
+
+   Class App
+    - Call OutputNames.outputNames()
